@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="drive.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="magnetic_anomalies.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="move_policy.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="obstacle_avoidance.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="histogram_filter.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="additions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PID-controler.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="map_reader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{970ddbca-502f-4577-bdc5-a1fe361e12fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{8f7f02a2-83b1-458b-9de3-28965d823335}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
